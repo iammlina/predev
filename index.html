@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre dev camp D-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body>
+    <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="London" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Tokyo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+            
+    <div class="centered">
+        <img class="picProfile" src="./img/me.jpg">
+        <table class="infoTable">
+            <tr>
+                <th class="topic">Name</th>
+                <td>Yosita</td>
+            </tr>
+            <tr>
+                <th class="topic">Sirname</th>
+                <td>Jinda</td>
+            </tr>
+            <tr>
+                <th class="topic">
+                    Favorite color
+                </th>
+                <td>
+                    Red
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="./img/me.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">don't click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <style>
+        .row {
+            position: absolute;
+            width: 500px;
+            text-align: center; 
+
+            top: 80px;
+            left: 20px;
+        }
+        .centered {
+            position: absolute;
+            background-color:#F1948A ;
+            width: 400px;
+            text-align: center;
+
+            top: 50%;
+            left: 50%;
+
+            margin-left: -200px;
+            margin-top: -200px;
+
+        }
+        .picProfile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+        .topic {
+            padding: 15px;
+        }
+        .infoTable {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            margin-left: 20px;
+
+            width: 100%;
+            text-align: left;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            color: #1A5276;
+
+        }
+        .centered:hover {
+            background-color:#A9CCE3 ;
+            box-shadow: 4px 4px 4px rgba(38, 38, 38, 0.5);
+            transition: all 0.2s ease-out;
+        }
+
+        .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #F1948A;
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+        background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+        background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        }
+
+    </style>
+    
+</body>
+</html>
+
+
+    

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile's Lina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Comic+Neue:wght@700&family=Indie+Flower&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/322dea124c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mitr:300&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-image: url(f.png);">
+
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'D2')">DAY</button>
+        <button class="tablinks" onclick="openCity(event, 'D2')">29-4</button>
+        <button class="tablinks" onclick="openCity(event, 'D3')">2-5</button>
+        <button class="tablinks" onclick="openCity(event, 'D4')">9-5</button>
+        <button class="tablinks" onclick="openCity(event, 'D5')">16-5</button>
+        <button class="tablinks" onclick="openCity(event, 'D6')">23-5</button>
+    </div>
+    <div class="col-sm-4">
+        <h2>About Me</h2>
+    </div>
+    <div class="col-sm-5">
+        <h2>Strengths</h2>
+    </div>
+    <div class="card">
+    <img src="./img/me.jpg" alt="Lina" style="width:100% ">
+    <h1 class="nickname">LI NA</h1>
+    <h2 class="name" >Yosita Jinda</h2>
+    <p class="title">6210451411</p>
+    <p class="uni">Kasetsart University</p>
+    <div style="margin: 15px 0;">
+         
+        <a href="https://www.facebook.com/I.amm.LIna"><i class="fa fa-facebook"></i></a> 
+        <a href="https://www.instagram.com/iammlina/"><i class="fab fa-instagram-square"></i></a>
+    </div>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./img/1.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1 class="he">Programming</h1> 
+            <div class="te">
+                <p>ชอบการเขียนโปรแกรม</p>
+                <p>รู้สึกสนุกและตื่นเต้นทุกครั้งที่ได้เขียน</p>
+                <p>แต่ไม่ได้เก่งมากมาย</p>
+                <p>my favorite language</p>
+                <p>is C language</p>
+                <i class="fas fa-laptop-code"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="flip-card2">
+        <div class="flip-card-inner2">
+          <div class="flip-card-front2">
+            <img src="./img/2.jpg" alt="Avatar" style="width:450px;height:300px;">
+          </div>
+          <div class="flip-card-back2">
+            <h1 class="ht">General</h1> 
+            <div class="tt">
+                <p>พูดมาก แต่อาจจะไม่ได้พูดเก่ง</p> 
+                <p>ชอบทำงานให้เป็นระบบระเบียน และชัดเจน</p>
+                <p>เรียนรู้ได้เร็ว ถ้ารู้สึกสนใจอะไรจะทุ่มเทกับมัน</p>
+                <p>เมื่อถึงเวลาที่จะพยายาม และตั้งใจทำกับอะไรสักอย่าง</p>
+                <p>ก็จะพยายามทำให้มันสำเร็จตามที่คาดหวังไว้</p>
+                <i class="far fa-address-card"></i>
+                <i class="fas fa-grin-squint"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <style>
+         .tab {
+        overflow: hidden;
+        border: 1px solid white;
+        background-color: rgb(170, 47, 36) ;
+        color: white;
+        font-family: 'Righteous', cursive;
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+        background-color: rgba(64, 92, 129, 0.89);
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+        background-color: #ccc;
+        }
+        .col-sm-4 {
+        top: 20px;
+        left: 70px;
+
+        font-family: 'Righteous', cursive;
+        color: whitesmoke;
+        }
+        .col-sm-5 {
+        top: 15px;
+        left: 740px;
+
+        font-family: 'Righteous', cursive;
+        color: whitesmoke;
+        }
+
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+        max-width: 200px;
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        background-color: rgb(160, 190, 211) ;
+        
+
+        margin: auto;
+        text-align: center;
+        font-family: 'Bangers', cursive;
+        font-family: 'Comic Neue', cursive;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Acme', sans-serif;
+        
+        }
+
+        .title {
+        color: grey;
+        font-size: 18px;
+        }
+
+        .nickname {
+            font-size: 45px;
+        }
+
+        .name {
+            font-size: 25px;
+            color: #34495E;
+        }
+        .uni {
+            font-size: 14px;
+            color: #117A65 ;
+        }
+
+        .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+
+        .a {
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        }
+
+        .button:hover, a:hover {
+        opacity: 0.7;
+        }
+
+        .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+        position: absolute;
+        top: 190px;
+        left: 450px;
+        margin: auto;
+        }
+
+        .flip-card2 {
+        background-color: transparent;
+        width: 450px;
+        height: 300px;
+        perspective: 1000px;
+        position: absolute;
+        top: 190px;
+        left: 900px;
+        margin: auto;
+        }
+
+        .flip-card-inner, .flip-card-inner2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+
+        .flip-card:hover .flip-card-inner, .flip-card2:hover .flip-card-inner2 {
+        transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back, .flip-card-front2, .flip-card-back2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        }
+
+        .flip-card-front, .flip-card-front2 {
+        background-color: #bbb;
+        color: black;
+        }
+
+        .flip-card-back, .flip-card-back2 {
+        background-color: #2980b9;
+        color: black;
+        transform: rotateY(180deg);
+        background-color: rgba(166, 190, 206, 0.877) ;
+        font-family: 'Mitr', sans-serif;
+        }
+        
+        .he, .ht {
+            font-size: 33px;
+        }
+        .te, .tt {
+            font-size: 18px;
+        }
+     </style>
+    
+</body>
+</html>
